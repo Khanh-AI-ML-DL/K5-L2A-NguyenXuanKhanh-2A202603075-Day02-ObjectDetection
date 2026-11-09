@@ -4,12 +4,12 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
-- Lớp:
-- Link repo bài làm:
-- Link Colab đã chạy:
+- Họ tên: Nguyễn Xuân Khánh
+- MSSV:2A202603075
+- Email: khanhblackjaky@gmail.com
+- Lớp:K5-L2A
+- Link repo bài làm: https://github.com/VinUni-AI20k/K5-L2-Day02-ObjectDetection
+- Link Colab đã chạy:https://colab.research.google.com/drive/1RphZaAt8xhyAZPdJvOBMq-FQilFlpdNu
 
 ## 2. Schema và mini guideline
 
@@ -27,29 +27,29 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| TP | 410| |
+| FP | 329| |
+| FN | 243| |
+| Precision |0.5548 | |
+| Recall | 0.6279| |
+| F1 | 0.5891| |
+| mean_iou_of_matches | 0.8123| |
+| passed |false | |
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
 ## 5. Kết quả YOLO
 
-- Runtime, GPU/CPU, phiên bản Ultralytics và Torch:
+- Runtime, GPU/CPU, phiên bản Ultralytics và Torch: 
 - Các tham số thay đổi so với notebook nếu có và lý do:
 - Đường dẫn best checkpoint trong phiên chạy:
 
 | Chỉ số trên 10 ảnh eval | Giá trị |
 |---|---:|
-| Precision | |
-| Recall | |
-| mAP50 | |
-| mAP50–95 | |
+| Precision |0.3167586296505923 |
+| Recall |0.3904255319148936 |
+| mAP50 | 0.3612044317184494|
+| mAP50–95 |0.23811656540998277 |
 
 Đặt cả 2 folder `assets/eval_predictions/` và `assets/yolo26_runs/` (giải nén từ `day2_colab_outputs.zip`) cạnh báo cáo và dẫn link tương đối. Không chỉ ghi số; chỉ ra ít nhất một ảnh và vật thể cụ thể.
 
